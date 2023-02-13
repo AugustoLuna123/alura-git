@@ -1,0 +1,73 @@
+1-O que é Git?
+O Git é um versionador, usado para criar softwares tanto sozinho quanto em conjunto.
+
+2-O que é a staging area?
+É uma área onde ficam todas as altereções que serão adicionadas no próximo commit.
+
+3-O que é o working directory?
+São todos os arquivos que estão sendo alterados no momento.
+
+4-O que é um commit?
+É o ultimo estado que o código fica antes de poder ser enviado para o repositório.
+
+5-O que é uma branch?
+Branch é uma ramificação do programa onde tudo que é alterado não é alterado no programa principal.
+
+6-O que é o head no Git?
+O Head aponta para a branch que você está.
+
+7-O que é um merge?
+O merge é usado para juntar duas branches.
+
+8-Explique os 4 estados de um arquivo no Git.
+Os 4 estados de um arquivo no Git são: untracked, unmodified, modified e staged..
+
+Untracked são os arquivos que não estão em nenhum commit.
+Unmodified são os arquivos que não foram alterados desde o último commit.
+Modified são os arquivos que foram modificados desde o último commit.
+Staged são os arquivos prontos para serem commitados.
+
+9-Explique o comando git init.
+O git init serve para criar um repositorio.
+
+10-Explique o comando git add.
+Com o git add você seleciona os arquivos para serem commitados.
+
+11-Explique o comando git status.
+Permite que você acompanhe as alterações feitas no git.
+
+12-Explique o comando git commit.
+Prepara um arquivo para ser enviado para algum repositório, tanto local quanto remoto.
+
+13-Explique o comando git log.
+Mostra detalhadamente o histórico de commits.
+
+14-Explique o comando git checkout -b.
+O comando git checkout -b serve para criar uma nova branch.
+
+15-Explique o comando git reset e suas três opções.
+Temos três opções para o git reset:
+Soft, mixed e hard.
+
+O soft move o HEAD para um commit antigo indicado, mas não altera o staging atual e o working directory.
+O mixed também move o HEAD par um commit antigo, altera o stanging mas não o working directory.
+O hard move o HEAD para um commit anterior e altera o stanging e o working directory para o estado do commit em questão.
+
+16-Explique o comando git revert.
+O git revert remove um arquivo que foi adicionado para ser commitado.
+
+17-Explique o comando git clone.
+O git clone baixa um repositório remoto para a sua máquina 
+
+18-Explique o comando git push
+O git push envia todas as alterações para um repositório.
+
+19-Explique o comando git pull.
+Com o git pull você pode pegar arquivos de outros repositórios.
+
+20-Como ignorar o versionamento de arquivos no Git?
+Criando o arquivo .gitignore e adicionando os arquivos em questão dentro dele, assim o Git irá ignorar esses arquivos.
+
+21-No terralab utilizamos as branches master ou main, develop e staging. Explique o objetivo de cada uma.
+
+A branch master ou main, é a branch que está a versão principal do software. Já a branch develop, é onde irão acontecer todas as modificações desse software. Por fim a branch staging é onde irão ocorrer os testes antes de mandar o software para a produção
